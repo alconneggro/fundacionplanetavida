@@ -1,0 +1,66 @@
+
+/* despegable */
+
+
+
+.nav{
+    text-align: right;
+    padding: 20px 0 0 0;
+}
+
+.Items ul{
+    float: right;
+    margin-right:10px;
+
+}
+
+.Items ul li{
+    display: flex;
+    display:block;
+    
+}
+
+ .Items ul li a {
+    color:green;
+    display: block;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: right;
+    transition: 0.4s;
+}
+
+.Items ul ul{
+    position: absolute;
+    top: 50px;
+    padding-top: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.Items ul ul li{
+   position: relative;
+
+}
+
+.Items ul ul li a{
+    line-height: 50px;
+}
+
+.Items ul ul li a{
+    border-bottom: solid;
+    
+}
+
+.Items ul li a:hover,
+.Items ul li a.activar{
+    color: red;
+}
+
+.Items ul li:hover >ul{
+    top: 50px;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s linear;
+}
+
+/* despegable */
